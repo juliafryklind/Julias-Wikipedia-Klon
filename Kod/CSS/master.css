@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+  color:#FFF5FC;
+  font-family: Vladimir Script;
+  display: flex;
+align-items: center;
+  width: 100%;
+  
+  font-size: 300%;
+  font-weight: lighter;
+  height:200px;
+  padding-top:3%;
+  padding-bottom:3%;
+  background-image: linear-gradient(to right, 	#F8C8DC, 	#E37383);
+  border: white 3px solid;
+}
+nav{
+width:90vw;
+margin:auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 5vw;
+
+}
+.navButton{
+background-color:pink;
+text-align: center;
+
+}
+
+
+.navTop>ul{
+  margin-top:1%;
+width:100%;
+}
+.purposeDescription{
+
+  float:left;
+}
