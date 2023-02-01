@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-#pictureOfComputer{
-width:60%;
+
+.intro{
+float:left;
+  background-image: url(../../Bilder/dator.jpg);
+  display: block;
+
+  width:100%;
 
 }
