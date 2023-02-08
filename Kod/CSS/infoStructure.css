@@ -6,12 +6,39 @@
 
 main {
   width: 90%;
-    margin: auto;
-  margin-top:2%;
+  margin: auto;
+  margin-top: 2%;
 }
 
 article {
   width: 90%;
   margin: auto;
   margin-bottom: 1%;
+}
+
+.titleHeader {
+  font-family: Freestyle Script;
+  font-size: 650%;
+  color: #F8C8DC;
+  text-shadow: 3px 3px 3px #F07089;
+  font-weight: bold;
+}
+
+.HeaderNavContent{
+  font-family: Batang;
+  font-size: 450%;
+  color: #664E4E;
+  font-weight: lighter;
+  background-image: linear-gradient(180deg, #F8C8DC, #E37383);
+  text-align: center;
+}
+
+.infoNav {
+  list-style-type: " ♥";
+}
+
+.infoNav a {
+  text-decoration: none;
+  font-size: 40px;
+  margin-bottom:2%;
 }

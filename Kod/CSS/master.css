@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
+p {
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+li {
+  font-family: Calibri;
+  font-size: 30px;
+}
+
+a {
+  font-family: Calibri;
+  font-size: 20px;
+  color: #970830;
+  font-weight: bold;
+}
+
 .mainHeader {
   color: #FFF5FC;
   font-family: Vladimir Script;
   display: flex;
-
   width: 100%;
   font-size: 300%;
   font-weight: lighter;
@@ -18,13 +34,23 @@
   background-image: linear-gradient(to right, #F8C8DC, #E37383);
   margin-bottom: 3%;
 }
-.mainHeader>h1{
-  width:90%;
-  border:2px solid red;
-margin:auto;
-    text-align: center;
 
+.linkLogo {
+  width: 10%;
+  border: 2px solid red;
+  display: inline-block;
+}
 
+.linkLogoPic {
+  width: 100%;
+}
+
+.mainHeader>h1 {
+  width: 90%;
+  border: 2px solid red;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
 }
 
 nav {
@@ -40,15 +66,23 @@ nav {
   text-align: center;
 }
 
-.navButton>p {
+.navButton>a {
   font-size: 175%;
-  font-family:Batang;
-  padding:2%;
-  color:#4F4046;
+  font-family: Batang;
+  padding: 2%;
+  color: #4F4046;
+  text-decoration: none;
 }
-main{
 
-width:90%;
-margin:auto;
-margin-top:2%;
+.navButton>a:hover {
+  text-decoration: underline;
+  font-style: italic;
+  color: white;
+  transition: 0.2s;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
 }

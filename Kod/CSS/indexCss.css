@@ -3,12 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+.linkLogo{
 
-.intro{
-float:left;
-  background-image: url(../../Bilder/dator.jpg);
-  display: block;
-height:200px;
-  width:100%;
+
 
 }
