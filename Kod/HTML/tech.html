@@ -6,49 +6,73 @@
   <title>Teknik</title>
   <link rel="stylesheet" href="../CSS/master.css">
   <link rel="stylesheet" href="../CSS/infoStructure.css">
+  <link rel="shortcut icon" href="../../Bilder/webbrowserIcon.png" />
+  <link rel="stylesheet" href="../CSS/historyStyle.css">
 </head>
 
 <body>
   <header class="mainHeader">
-
-
-<div class="linkLogo">
-    <a href="index.html">
-<img class="linkLogoPic" src="../../Bilder/icon.png" alt="här ska det vara en bild">
-    </a>
-</div>
-
+    <div class="linkLogo">
+      <a href="index.html">
+        <img class="linkLogoPic" src="../../Bilder/icon.png" alt="här ska det vara en bild">
+      </a>
+    </div>
     <h1>Gerdas sida om webbens historia</h1>
   </header>
 
   <nav>
     <div class="navButton">
-
       <a href="tech.html">Tekniker</a>
-
     </div>
-
     <div class="navButton">
-
       <a href="history.html">Historia</a>
     </div>
-
     <div class="navButton">
       <a href="cultureSociety.html">Samhälle och kultur</a>
-
     </div>
     <div class="navButton">
-    <a href="use.html">Användning</a>
+      <a href="concepts.html">Begrepp</a>
     </div>
   </nav>
 
   <main>
+    <article class="">
+      <h2 class="titleHeader" id="linkTech">Teknisk struktur</h2>
+      <p>Den tekniska strukturen som utgör webben är givetvis otroligt komplicerad, men här görs ett försök att uttrycka det någorlunda enkelt.</p>
+      <img class="coverPictureTopic" src="../../Bilder/desk.jpg" alt="här ska det vara en bild">
+      <section>
+        <h3 class="headerSections">Tekniken bakom webben</h3>
+        <p>
+          Webbsidorna vi kan nå ligger fysiskt lagrade olika globala datorer. En sådan dator kallas webbserver, och har programvara lämplig för att kunna styra hur webbplatsen ska hanteras. En webbserver sköter oftast en webbplats, men flera
+          webbplatser
+          kan ingå i ett webbhotell. Större webbplatser kan behöva skötas av olika datorer om de är avancerade och krävande.
+          Det nätverk som fungerar på webben, har sin huvudsakliga struktur som binds samman genom webbsidor och webbplatser. Hyperlänkar och webbadresser URL kan hänvisa till andra resurser. Webbsidor överförs vanliugtvis med de utvecklade
+          datakommunikationsprotokollet http.
+          <br>
+          Webbadresser har formen: protokoll://server:portnummer/sökväg/filnamn?parametrar#ankare
+          Protokollet kan antingen vara http och https. Den huvudsakliga skillnaden mellan dessa är att https är krypterad webbkommunikation.
+          Det finns även andra protokoll som används på internet och begränsas inte av dessa.
+          Servern anges i form av domännamn DNS-namn eller IP-adress. DNS-serverns funktion är att översätta domännamnet till en IP-adress. Då behöver man inte komma ihåg varje webbsidas IP-nummer.
+          Webbservern kan tolka sökväg, filnamn och parametrar tolks som en fil och körs med hjälp av de givna parametrarna eller en databasnyckel som kan vara intressanta för användaren. Ankaren i webbadressen används för att nå till rätt ställe i
+          dokumentet.
+          HTML används ofta som filtyp för webbsidor och är ett märkspråk. Men andra resurser kan också användas som bilder, ljud och video.
+        </p>
+      </section>
 
-
-
-
+      <section>
+        <h6 class="headerSections">Källor</h6>
+        <ul>
+          <li><a href="https://sv.wikipedia.org/wiki/World_Wide_Web">Den riktiga wikipedia</a> </li>
+      </section>
+    </article>
   </main>
-  
+
+  <footer>
+    <h5>Om Sidan</h5>
+    <p>Detta är ett projekt i gymnasiekursen Webbutveckling 1 gjort av Gerda.
+      Syftet med denna uppgiften var att utveckla en sida som berättar lite kort om webbens historia. En del i det hela var också att använda semantiska taggar. </p>
+  </footer>
+
 </body>
 
 </html>

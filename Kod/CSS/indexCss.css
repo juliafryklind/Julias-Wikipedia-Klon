@@ -3,8 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-.linkLogo{
+.recommendList > a{
+font-size:30px;
 
 
+}
+.cuteCat{
 
+
+  width:40%;
+  margin-left: 20%;
+  margin-top:2%;
+  margin-bottom:2%;
 }
